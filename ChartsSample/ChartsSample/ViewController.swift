@@ -44,7 +44,7 @@ class ChartVC: UIViewController,ChartViewDelegate {
         linechart.xAxis.granularity = 1.0
         linechart.xAxis.decimals = 0
         linechart.xAxis.valueFormatter = xAxis.valueFormatter
-     //   linechart.data = data
+        linechart.data = data
     }
     
     private class LineChartFormatter: NSObject,AxisValueFormatter {
@@ -66,3 +66,4 @@ class ChartVC: UIViewController,ChartViewDelegate {
     
     
 }
+
